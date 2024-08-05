@@ -2,7 +2,7 @@
 
 Create a new virtual environment: ```conda create -n <your_environment_name> python=3.9.15```
 
-Activate the envornment: ```conda activate <your_environment_name>```
+Activate the environment: ```conda activate <your_environment_name>```
 
 This project has only been tested on:
 
@@ -14,9 +14,13 @@ This project has only been tested on:
 
 ```cudnn 8.0```
 
-Example installation of the above packages: ```pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html```
+Example installation of the above packages: 
 
-Please make sure these are installed on your system prior to installing additional dependencies with: ```pip install -r requirements.txt```
+```pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html```
+
+Please make sure these are installed on your system prior to installing additional dependencies with:
+
+ ```pip install -r requirements.txt```
 
 # Usage
 ```inference.py``` has five inputs:

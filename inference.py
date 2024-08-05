@@ -2,13 +2,18 @@ import os
 
 os.environ['NUMEXPR_MAX_THREADS'] = '16'
 
-OPENSLIDE_PATH = "C:/Users/yvarnava/Documents/OpenSlide/openslide-win64-20220811/bin"
+import configparser
+config = configparser.ConfigParser()
+config.read("config.ini")
+openslidebin = fr"{config['prod']['openslidebin']}"
+
 if hasattr(os, 'add_dll_directory'):
     # Python >= 3.8 on Windows
-    with os.add_dll_directory(OPENSLIDE_PATH):
+    with os.add_dll_directory(openslidebin):
         import openslide
 else:
     import openslide
+    
 import argparse
 import numpy as np
 import cv2

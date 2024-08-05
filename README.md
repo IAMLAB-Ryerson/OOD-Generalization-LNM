@@ -1,5 +1,6 @@
 # OOD-Generalization-LNM
 
+# Installation Instructions
 Create a new virtual environment: ```conda create -n <your_environment_name> python=3.9.15```
 
 Activate the environment: ```conda activate <your_environment_name>```
@@ -21,6 +22,8 @@ Example installation of the above packages:
 Please make sure these are installed on your system prior to installing additional dependencies with:
 
  ```pip install -r requirements.txt```
+
+Also, users must add their openslide "bin" directory path to ```config.ini``` due to the tiatoolbox dependency for stain normalization. For more information, visit the "Binaries" section on the OpenSlide website at https://openslide.org/download/#binaries.
 
 # Usage
 ```inference.py``` has five inputs:

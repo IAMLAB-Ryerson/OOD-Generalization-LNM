@@ -1,4 +1,7 @@
 # OOD-Generalization-LNM
+These are the models and inference code to supplement the paper "Out-of-Distribution Generalization for Segmentation of Lymph Node Metastasis in Breast Cancer" published in Nature: Scientific Reports, with the following citation:
+XXX
+Prediction results on WSI from the models in the paper shown on PathcoreFlowTM in the following link:  
 
 # Installation Instructions
 Create a new virtual environment: ```conda create -n <your_environment_name> python=3.9.15```

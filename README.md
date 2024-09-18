@@ -7,7 +7,9 @@ This repository contains the models and inference code to supplement the paper "
 
 <CITATION PENDING>
 
-Prediction results on WSI from the models in the paper shown on PathcoreFlow&trade; in the following link:  
+Prediction results on WSI from the models in the paper are shown on PathcoreFlow&trade; at the following link:  
+
+[WSI Predictions (PathcoreFlow)](https://web.pathcore.com/folder/18555?s=QTJVHJuhrfe5)
 
 # Installation Instructions
 Create a new virtual environment: ```conda create -n <your_environment_name> python=3.9.15```

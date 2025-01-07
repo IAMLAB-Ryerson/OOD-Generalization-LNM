@@ -5,7 +5,7 @@
 # OOD-Generalization-LNM
 This repository contains the models and inference code to supplement the paper "Out-of-Distribution Generalization for Segmentation of Lymph Node Metastasis in Breast Cancer" published in Nature: Scientific Reports, with the following citation:
 
-<CITATION PENDING>
+Varnava, Y., Jakate, K., Garnett, R. et al. Out-of-distribution generalization for segmentation of lymph node metastasis in breast cancer. Sci Rep 15, 1127 (2025). https://doi.org/10.1038/s41598-024-80495-y
 
 Prediction results on WSI from the models in the paper are shown on PathcoreFlow&trade; at the following link:  
 
